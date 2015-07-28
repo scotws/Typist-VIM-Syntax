@@ -1,7 +1,7 @@
 A vim syntax plugin for the Typist's Assembler Notation in Forth 
 Scot W. Stevenson <scot.stevenson@gmail.com>
 First version: 28. Jul 2015
-This version: 29. Jul 2015
+This version: 28. Jul 2015
 
 
 Typist's Assembler Notation (TAN) is an alternative assembler notation for the
