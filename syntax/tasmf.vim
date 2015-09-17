@@ -1,7 +1,7 @@
 " Vim Syntax File for a Typist's Assembler Notation in Forth 
 " Language: Assembler (65816 8/16-bit CPU) 
 " Maintainer: Scot W. Stevenson <scot.stevenson@gmail.com>
-" Latest Revision: 28. July 2015
+" Latest Revision: 15. Sep 2015
 
 " This script is distributed in the hope that it will be useful,
 " but WITHOUT ANY WARRANTY; without even the implied warranty of
@@ -59,7 +59,7 @@ syn keyword tasmMnemonics
     \ mvn mvp
     \ ora ora.# ora.d ora.di ora.dil ora.diy ora.dily ora.dx ora.dxi ora.l 
     \ ora.lx ora.s ora.x ora.y ora.siy
-    \ pha phb phd phe.# phe.di phe.r phk php phx phy 
+    \ pha phb phd phe.# phe.d phe.r phk php phx phy 
     \ pla plb pld plp plx ply
     \ rol rol.a rol.d rol.dx rol.x
     \ ror ror.a ror.d ror.dx ror.x
