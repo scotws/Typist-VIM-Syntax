@@ -1,7 +1,7 @@
 " Vim Syntax File for a Typist's Assembler Notation in Forth 
 " Language: Assembler (65816 8/16-bit CPU) 
 " Maintainer: Scot W. Stevenson <scot.stevenson@gmail.com>
-" Latest Revision: 15. Sep 2015
+" Latest Revision: 25. Sep 2015
 
 " This script is distributed in the hope that it will be useful,
 " but WITHOUT ANY WARRANTY; without even the implied warranty of
@@ -51,7 +51,7 @@ syn keyword tasmMnemonics
     \ eor.x eor.y 
     \ inc inc.a inc.d inc.dx inc.x  
     \ inx iny
-    \ lda lda.# lda.d lda.di lda.dil lda.diy lda.dily lda.dx lda.dy 
+    \ lda lda.# lda.d lda.di lda.dil lda.diy lda.dily lda.dx
     \ lda.dxi lda.l lda.lx lda.s lda.siy lda.x lda.y 
     \ ldx ldx.# ldx.d ldx.y
     \ ldy ldy.# ldy.d ldy.dx ldy.x
