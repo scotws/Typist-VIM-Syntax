@@ -1,7 +1,7 @@
 " Vim Syntax File for a Typist's Assembler Notation in Forth 
 " Language: Assembler (65816 8/16-bit CPU) 
 " Maintainer: Scot W. Stevenson <scot.stevenson@gmail.com>
-" Latest Revision: 25. Sep 2015
+" Latest Revision: 20. Oct 2015
 
 " This script is distributed in the hope that it will be useful,
 " but WITHOUT ANY WARRANTY; without even the implied warranty of
@@ -40,7 +40,7 @@ syn keyword tasmMnemonics
     \ and.l and.lx and.s and.siy and.x and.y asl asl.a asl.d 
     \ asl.dx asl.x
     \ bit bit.# bit.d bit.dxi bit.x 
-    \ clc cld cli clv cop
+    \ clc cld cli clv 
     \ cmp cmp.# cmp.d cmp.di cmp.dil cmp.diy cmp.dily cmp.dx cmp.dxi 
     \ cmp.l cmp.lx cmp.s cmp.x cmp.y cmp.siy
     \ cpx cpx.# cpx.d
@@ -73,7 +73,7 @@ syn keyword tasmMnemonics
     \ stz stz.d stz.dx stz.x
     \ tax tay tcd tcs tdc trb trb.d tsb tsb.d tsc tsx txa txs txy tya tyx
     \ wai
-    \ xba xce
+    \ xba
 
 " Keywords for 65816 branch and jump instructions
 syn keyword tasmFlow 
@@ -83,7 +83,7 @@ syn keyword tasmFlow
     \ rts rts.l rti 
 
 " Keywords for 65816 special mnemonics (stp, rep ) 
-syn keyword tasmSpecial brk rep sep stp wai
+syn keyword tasmSpecial brk cop xce rep sep stp wai
 
 " Keywords for 65816 traditional instructions (pea, pei)
 syn keyword tasmLegacy brl jml jsl pea pei per rtl  
