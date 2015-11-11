@@ -1,7 +1,7 @@
 Vim Syntax Plugin for Typist's Assembler Notation for the 6502 and 65816
 Scot W. Stevenson <scot.stevenson@gmail.com>
 First version: 28. Jul 2015
-This version: 20. Oct 2015
+This version: 11. Nov 2015
 
 Typist's Assembler Notation (TAN) is an alternative assembler notation for the
 6502 and 65816 8/16-bit CPUs. There are two versions: One in "normal" prefix notation (mnemonic before operand), and one in "Forth" postfix notation (operand before mnemonic). These two vim syntax files provide highlighting for source code written in TAN in both versions. 
@@ -50,11 +50,6 @@ The script recognizes the following suffix:
 
    .tasm        Normal (prefix) Typist's Assembler Notation
    .tasmf       Forth (postfix) Typist's Assembler Notation 
-
-
-TODO 
-
-It would be nice to highlight label names. 
 
 
 KNOWN PROBLEMS
